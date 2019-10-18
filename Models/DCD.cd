@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BlackJackGame.Models.BlackJack">
+    <Position X="9.5" Y="0.75" Width="3.75" />
+    <AssociationLine Name="DealerHand" Type="BlackJackGame.Models.Hand" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.5" Y="2.813" />
+        <Point X="8" Y="2.813" />
+        <Point X="8" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="PlayerHand" Type="BlackJackGame.Models.Hand" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.5" Y="2.063" />
+        <Point X="6.938" Y="2.063" />
+        <Point X="6.938" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAADAAAACAAAAAAAAAQAABAAAABCAAAggIAACAIAA=</HashCode>
+      <FileName>Models\BlackJack.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_deck" />
+      <Property Name="DealerHand" />
+      <Property Name="PlayerHand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BlackJackGame.Models.BlackJackCard">
+    <Position X="0.5" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Models\BlackJackCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackJackGame.Models.Card">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlackJackGame.Models.Deck">
+    <Position X="4" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAAEAE=</HashCode>
+      <FileName>Models\Deck.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_cards" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BlackJackGame.Models.Hand">
+    <Position X="6" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AJAAIAAAAAAAAAAAAAAAAABIAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Models\Hand.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_cards" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="BlackJackGame.Models.FaceValue">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAggAAAEAAEAIAAAAAFBAAAAAgAAAgAAEE=</HashCode>
+      <FileName>Models\CardEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BlackJackGame.Models.Suit">
+    <Position X="13.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\CardEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BlackJackGame.Models.GameState">
+    <Position X="13.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
