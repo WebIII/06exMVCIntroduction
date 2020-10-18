@@ -4,20 +4,20 @@
 In deze oefening gaan we het BlackJack spel naar een hoger niveau tillen. Waar we vroeger gebruik maakten van een console applicatie, gebruiken we nu MVC. Wat volgt zijn enkele screenshots van het eindresultaat:
 
 ## Start Spel
-<img src="https://webiii.github.io/docs/H06/fig1.png" alt="start" border="0">
+<img src="https://webiii.github.io/portal/docs/H06/fig1.png" alt="start" border="0">
 
 ## Player Burned, Dealer Wins.
-<img src="https://webiii.github.io/docs/H06/fig2.png" alt="Player-Burned" border="0">
+<img src="https://webiii.github.io/portal/docs/H06/fig2.png" alt="Player-Burned" border="0">
 
 > Player heeft kaart gevraagd (en gekregen) – zijn score is hoger dan 21 en dealer wint. Link om nieuw spel te starten wordt zichtbaar. Card en Pass link zijn niet zichtbaar. 
 
 ## Dealer Burned, Player Wins.
-<img src="https://webiii.github.io/docs/H06/fig3.png" alt="Dealer-Burned" border="0">
+<img src="https://webiii.github.io/portal/docs/H06/fig3.png" alt="Dealer-Burned" border="0">
 
 > Player heeft gepassed – zijn score 20, dealer speelt automatisch verder tot hij een gelijke of hogere score heeft dan player (in dit geval 20 of 21). Hij behaalt 22 en player wint. Link om nieuw spel te starten wordt zichtbaar. Card en Pass link zijn niet zichtbaar. 
 
 ## BlackJack.
-<img src="https://webiii.github.io/docs/H06/fig4.png" alt="Black-Jack" border="0">
+<img src="https://webiii.github.io/portal/docs/H06/fig4.png" alt="Black-Jack" border="0">
 
 > Player heeft BlackJack – er worden geen kaarten meer verdeeld, de player wint.
 
